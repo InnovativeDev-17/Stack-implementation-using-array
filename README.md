@@ -49,10 +49,12 @@ main Function:
 Inserts values (4, 5) at the head and displays the list.
 Inserts values (3, 6) at the tail and displays the list.
 
- display Function:
+
 5) Traverses the linked list from head:
 Prints each node's value followed by " -> ".
 Ends with "NULL" to indicate the end of the list.
+
+
 6) main Function:
 Initializes the linked list with head set to NULL.
 Inserts values (4, 5, 10) at the head.
