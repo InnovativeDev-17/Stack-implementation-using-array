@@ -20,12 +20,41 @@
 insertAtHead Function:
 3) Creates a new node.
 Sets its next to the current head.
+
+
+
+2nd Code of Stack Implementation:
+Node Class: Represents a node with an integer value and a pointer to the next node (next).
+
+Constructor: Initializes the node with given data and sets next to NULL.
+
+insertAtHead Function:
+
+1) Creates a new node.
+Sets its next to the current head.
 Updates head to point to the new node.
+insertAtTail Function:
+
+2) Creates a new node.
+If the list is empty, sets head to the new node.
+Otherwise, traverses to the end of the list and links the new node.
 display Function:
-4) Traverses the linked list from head.
+
+3) Traverses the linked list from head:
+Prints each node's value followed by a space.
+Ends with "NULL" to indicate the end of the list.
+main Function:
+
+ 4) Initializes the linked list with head set to NULL.
+Inserts values (4, 5) at the head and displays the list.
+Inserts values (3, 6) at the tail and displays the list.
+
+  Updates head to point to the new node.
+ display Function:
+5) Traverses the linked list from head.
 Prints each node's value followed by " -> ".
 Ends with "NULL" to indicate the end of the list.
-5) main Function:
+6) main Function:
 Initializes the linked list with head set to NULL.
 Inserts values (4, 5, 10) at the head.
 Displays the linked list after each insertion
