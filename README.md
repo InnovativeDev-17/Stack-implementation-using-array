@@ -17,8 +17,8 @@
 1st code of stack implementation:
 1) Node Class: Represents a single linked list node with value and pointer next.
 2) Constructor: Initializes a node with given data and sets next to NULL.
-insertAtHead Function:
-3) Creates a new node.
+3) insertAtHead Function:
+Creates a new node
 Sets its next to the current head.
 
 
@@ -30,12 +30,12 @@ Constructor: Initializes the node with given data and sets next to NULL.
 
 insertAtHead Function:
 
-1) Creates a new node.
+1) Creates a new node:
 Sets its next to the current head.
 Updates head to point to the new node.
 insertAtTail Function:
 
-2) Creates a new node.
+2) Creates a new node:
 If the list is empty, sets head to the new node.
 Otherwise, traverses to the end of the list and links the new node.
 display Function:
@@ -49,9 +49,8 @@ main Function:
 Inserts values (4, 5) at the head and displays the list.
 Inserts values (3, 6) at the tail and displays the list.
 
-  Updates head to point to the new node.
  display Function:
-5) Traverses the linked list from head.
+5) Traverses the linked list from head:
 Prints each node's value followed by " -> ".
 Ends with "NULL" to indicate the end of the list.
 6) main Function:
