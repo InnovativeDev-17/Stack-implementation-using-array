@@ -13,7 +13,7 @@
 
 
 
-#Algorithm
+# Algorithm
 1st code of stack implementation:
 1) Node Class: Represents a single linked list node with value and pointer next.
 2) Constructor: Initializes a node with given data and sets next to NULL.
