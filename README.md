@@ -59,3 +59,6 @@ Ends with "NULL" to indicate the end of the list.
 Initializes the linked list with head set to NULL.
 Inserts values (4, 5, 10) at the head.
 Displays the linked list after each insertion
+
+
+Code 3 Algorithm:
